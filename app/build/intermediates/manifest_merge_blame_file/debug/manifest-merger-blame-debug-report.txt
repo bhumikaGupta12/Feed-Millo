@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.java.feedmillo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->F:\FeedMillo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\FeedMillo\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->F:\FeedMillo\app\src\main\AndroidManifest.xml:5:5-81
+11-->F:\FeedMillo\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->F:\FeedMillo\app\src\main\AndroidManifest.xml:6:5-65
+12-->F:\FeedMillo\app\src\main\AndroidManifest.xml:6:22-62
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->F:\FeedMillo\app\src\main\AndroidManifest.xml:8:5-60
+14-->F:\FeedMillo\app\src\main\AndroidManifest.xml:8:19-57
+15
+16    <application
+16-->F:\FeedMillo\app\src\main\AndroidManifest.xml:10:5-27:19
+17        android:allowBackup="true"
+17-->F:\FeedMillo\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\905808b10bc47511b6c6896a37787f2b\core-1.3.1\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->F:\FeedMillo\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->F:\FeedMillo\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->F:\FeedMillo\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->F:\FeedMillo\app\src\main\AndroidManifest.xml:15:9-35
+24        android:theme="@style/AppTheme" >
+24-->F:\FeedMillo\app\src\main\AndroidManifest.xml:16:9-40
+25        <activity android:name="com.java.feedmillo.AnimateActivity" />
+25-->F:\FeedMillo\app\src\main\AndroidManifest.xml:17:9-62
+25-->F:\FeedMillo\app\src\main\AndroidManifest.xml:17:19-50
+26        <activity android:name="com.java.feedmillo.share_meal_activity" />
+26-->F:\FeedMillo\app\src\main\AndroidManifest.xml:18:9-57
+26-->F:\FeedMillo\app\src\main\AndroidManifest.xml:18:19-54
+27        <activity android:name="com.java.feedmillo.second_click_activity" />
+27-->F:\FeedMillo\app\src\main\AndroidManifest.xml:19:9-59
+27-->F:\FeedMillo\app\src\main\AndroidManifest.xml:19:19-56
+28        <activity android:name="com.java.feedmillo.MainActivity" >
+28-->F:\FeedMillo\app\src\main\AndroidManifest.xml:20:9-26:20
+28-->F:\FeedMillo\app\src\main\AndroidManifest.xml:20:19-47
+29            <intent-filter>
+29-->F:\FeedMillo\app\src\main\AndroidManifest.xml:21:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->F:\FeedMillo\app\src\main\AndroidManifest.xml:22:17-69
+30-->F:\FeedMillo\app\src\main\AndroidManifest.xml:22:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->F:\FeedMillo\app\src\main\AndroidManifest.xml:24:17-77
+32-->F:\FeedMillo\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8d6336d25e5554138cbe03a279fef38\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+37            android:name="com.squareup.picasso.PicassoProvider"
+37-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8d6336d25e5554138cbe03a279fef38\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+38            android:authorities="com.java.feedmillo.com.squareup.picasso"
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8d6336d25e5554138cbe03a279fef38\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+39            android:exported="false" />
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8d6336d25e5554138cbe03a279fef38\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+40    </application>
+41
+42</manifest>
